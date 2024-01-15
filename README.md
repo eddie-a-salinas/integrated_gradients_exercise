@@ -15,5 +15,5 @@ docker build . -t digit_ig_exercise
 ```
 docker run  -v ${PWD}:/tf/work  --rm -it -p 8888:8888 digit_ig_exercise
 ```
-3.  Once the container starts, look for the URL.  Copy/past that into a new browser tab (being sure to include the password).  Next, navigate into the "work" directory and open the "keras_example.ipynb" file.  Run the cells, read the text or both!
+3.  Once the container starts, look for the URL.  Copy/paste that into a new browser tab (being sure to include the password).  Next, navigate into the "work" directory and open the "keras_example.ipynb" file.  Run the cells, read the text or both!
 
